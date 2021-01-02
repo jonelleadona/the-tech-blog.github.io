@@ -7,5 +7,24 @@
     "handlebars": "^4.7.6",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "the-tech-blog.github.io",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonelleadona/the-tech-blog.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonelleadona/the-tech-blog.github.io/issues"
+  },
+  "homepage": "https://github.com/jonelleadona/the-tech-blog.github.io#readme"
 }
