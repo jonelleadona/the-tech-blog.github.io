@@ -6,14 +6,12 @@ class comment extends Model {}
 comment.init(
   {
     id: {
-      // gives a unique id
-      type: DataTypes.UUID,
-      // default values
-      defaultValue: Sequelize.UUIDV4,
+      type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
+      autoIncrement: true,
     },
-    comment_content: {
+    body: {
       type: DataTypes.STRING(400),
       allowNull: false,
     }
